@@ -1,4 +1,4 @@
-﻿namespace MDD4All.FileAccess.Contracts
+﻿namespace Synorvia.FileAccess.Contracts
 {
     public interface IFileLoader
     {

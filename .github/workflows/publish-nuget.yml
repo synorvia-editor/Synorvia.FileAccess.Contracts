@@ -20,7 +20,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      PROJECT_NAME: MDD4All.FileAccess.Contracts
+      PROJECT_NAME: Synorvia.FileAccess.Contracts
 
     steps:
     # A mistyped version costs a whole run otherwise, and the compiler's complaint about

@@ -4,6 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>$(MSBuildProjectName.Replace("-dev", ""))</RootNamespace>
     <AssemblyName>$(MSBuildProjectName.Replace("-dev", ""))</AssemblyName>
+    <!-- oalt's, as in his package project; the app is built from this file. -->
+    <Authors>Dr. Oliver Alt</Authors>
+    <Company>MDD4All.de</Company>
+    <Copyright>(c) MDD4All.de</Copyright>
   </PropertyGroup>
 
 </Project>

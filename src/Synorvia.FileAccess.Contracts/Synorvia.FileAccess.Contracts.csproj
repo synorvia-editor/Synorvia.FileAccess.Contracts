@@ -2,11 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <!-- The id on nuget.org is oalt's; his newest there is 2.0.1.4 and predates the
-         interface in this branch, which takes an initial directory and a title. So this
-         goes out under a name of its own. Library, author and copyright stay his. -->
-    <PackageId>Synorvia.FileAccess.Contracts</PackageId>
-    <Version>2.1.0.0</Version>
+    <!-- Forked from oalt's MDD4All.FileAccess.Contracts and renamed, so the two never meet in one build. Author and copyright stay his. -->
+    <Version>2.0.0.0</Version>
     <Authors>Dr. Oliver Alt</Authors>
     <Company>MDD4All.de</Company>
     <Description>Contracts for file UI operations</Description>
@@ -14,8 +11,6 @@
     <PackageReadmeFile>Nuget.md</PackageReadmeFile>
     <PackageTags>FileAccess Contracts</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup>

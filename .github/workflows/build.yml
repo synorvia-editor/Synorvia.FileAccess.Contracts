@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      PROJECT_NAME: MDD4All.FileAccess.Contracts
+      PROJECT_NAME: Synorvia.FileAccess.Contracts
 
     steps:
     - name: Checkout source code
